@@ -1,14 +1,14 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+A simple todo list where you can add and remove todo items.
 
 ## Functionality
 
-Give a more detailed explanation of the project and its functionality.
+its a simple todo application that allows you to add and remove todo items aswell as check them off.
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+it usese JS.
 
 ## Deployment
 
