@@ -14,4 +14,4 @@ it usese JS.
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+it wont let me deply without upgrading.
