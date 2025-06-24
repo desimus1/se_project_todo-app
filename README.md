@@ -14,4 +14,4 @@ it usese JS.
 
 This project is deployed on GitHub Pages:
 
-it wont let me deply without upgrading.
+https://desimus1.github.io/se_project_todo-app/
