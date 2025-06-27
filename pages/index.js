@@ -11,7 +11,6 @@ const todosList = document.querySelector(".todos__list");
 
 const openModal = (modal) => {
   modal.classList.add("popup_visible");
-  newTodoValidator.resetValidation();
 };
 
 const closeModal = (modal) => {
@@ -41,8 +40,7 @@ addTodoForm.addEventListener("submit", (evt) => {
   evt.preventDefault();
   const name = evt.target.name.value;
   const dateInput = evt.target.date.value;
-
-  // Create a date object and adjust for timezone
+  newTodoValidator.resetValidation();
   const date = new Date(dateInput);
   date.setMinutes(date.getMinutes() + date.getTimezoneOffset());
 
