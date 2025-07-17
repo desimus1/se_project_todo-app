@@ -7,20 +7,12 @@ class TodoCounter {
   }
 
   updateCompleted = (increment) => {
-    if (increment) {
-      this._completed++;
-    } else {
-      this._completed--;
-    }
+    this._completed += increment ? 1 : -1;
     this._updateText();
   };
 
   updateTotal = (increment) => {
-    if (increment) {
-      this._total++;
-    } else {
-      this._total--;
-    }
+    this._total += increment ? 1 : -1;
     this._updateText();
   };
 
