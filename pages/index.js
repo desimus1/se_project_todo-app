@@ -74,5 +74,4 @@ newTodoValidator.enableValidation();
 
 addTodoButton.addEventListener("click", () => {
   addTodoPopup.open();
-  newTodoValidator.resetValidation();
 });
